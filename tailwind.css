@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .theme-h1
+    {
+        @apply
+        font-montserrat font-bold
+        text-[28px] leading-[35px]
+        sm:text-[30px] sm:leading-[37px]
+        md:text-[32px] md:leading-[42px]
+        lg:text-[38px] lg:leading-[45px]
+        xl:text-[48px] lg:leading-[56px]
+    }
+
+    .theme-h2
+    {
+        @apply
+        font-montserrat font-bold
+        text-[24px] leading-[34px]
+        sm:text-[28px] sm:leading-[38px]
+        md:text-[30px] md:leading-[40px]
+        lg:text-[32px] lg:leading-[42px]
+        xl:text-[36px] lg:leading-[46px]
+    }
+
+    .theme-h3
+    {
+        @apply
+        font-montserrat font-bold
+        text-[20px] leading-[30px]
+        sm:text-[21px] sm:leading-[31px]
+        md:text-[22px] md:leading-[32px]
+        lg:text-[22px] lg:leading-[32px]
+        xl:text-[24px] lg:leading-[34px]
+    }
+
+    .theme-h4
+    {
+        @apply
+        font-montserrat font-bold
+        text-[16px] leading-[26px]
+        sm:text-[16px] sm:leading-[26px]
+        md:text-[17px] md:leading-[27px]
+        lg:text-[18px] lg:leading-[28px]
+        xl:text-[18px] lg:leading-[28px]
+    }
+
+    .theme-text-normal
+    {
+        @apply
+        font-montserrat font-normal
+        text-[16px] leading-[26px]
+        md:text-[17px] md:leading-[27px]
+        lg:text-[18px] lg:leading-[28px]
+    }
+
+    .theme-block-text
+    {
+        @apply relative flex flex-col gap-4
+    }
+
+    .theme-text-light
+    {
+        @apply
+        font-montserrat font-light
+        text-[16px] leading-[26px]
+        md:text-[17px] md:leading-[27px]
+        lg:text-[18px] lg:leading-[28px]
+    }
+
+    .theme-text-strong
+    {
+        @apply
+        font-montserrat font-bold
+        text-[16px] leading-[26px]
+        md:text-[17px] md:leading-[27px]
+        lg:text-[18px] lg:leading-[28px]
+    }
+
+    .theme-description
+    {
+        @apply
+        font-montserrat font-light
+        text-[15px] leading-[25px]
+        md:text-[16px] md:leading-[26px]
+        lg:text-[16px] lg:leading-[26px]
+    }
+
+    .theme-section-p
+    {
+        @apply
+        py-[15px] px-[15px]
+        md:p-[20px]
+        xl:py-[30px] xl:px-0
+
+    }
+
+    .theme-section-m
+    {
+        @apply
+        py-[20px] px-[20px]
+        md:p-[30px]
+        xl:py-[40px] xl:px-0
+
+    }
+
+    .theme-section-g
+    {
+        @apply
+        py-[25px] px-[25px]
+        md:p-[40px]
+        xl:py-[50px] xl:px-0
+
+    }
+
+    .theme-container-p
+    {
+        @apply
+        relative max-w-[800px]
+        mx-auto
+    }
+
+    .theme-container-m
+    {
+        @apply
+        relative max-w-[950px]
+        mx-auto
+    }
+
+    .theme-container-g
+    {
+        @apply
+        relative max-w-[1140px]
+        mx-auto
+    }
+
+    .theme-btn-01
+    {
+        @apply
+        relative flex flex-row justify-center items-center w-fit h-[60px]
+        bg-color02 text-color07 font-bold
+        theme-text-strong box-border py-2 px-6
+        rounded
+        md:max-w-fit
+    }
+
+    .theme-btn-02
+    {
+        @apply
+        relative flex flex-row justify-center items-center w-[100%] min-w-[300px] h-[70px]
+        bg-color02 text-color07 font-bold
+        theme-text-strong box-border py-2 px-6
+        rounded
+        md:max-w-fit
+
+    }
+
+
+    .theme-header
+    {
+        background: linear-gradient(180deg, #D8DBEE 0%, rgba(255, 255, 255, 0) 73.36%);
+    }
+}
