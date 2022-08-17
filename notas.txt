@@ -1,4 +1,4 @@
-npx tailwindcss -i tailwind.css -o ./src/assets/css/style.css
-npx tailwindcss -i tailwind.css -o ./src/assets/css/style.css --watch
-npx tailwindcss -i tailwind.css -o ./src/assets/css/style.css --minify
+npx tailwindcss -i tailwind.css -o ./src/asset/css/style.css
+npx tailwindcss -i tailwind.css -o ./src/asset/css/style.css --watch
+npx tailwindcss -i tailwind.css -o ./src/asset/css/style.css --minify
 
