@@ -120,7 +120,7 @@
 
     .theme-section-p
     {
-        @apply
+        @apply relative w-full
         py-[15px] px-[15px]
         md:p-[20px]
         xl:py-[30px] xl:px-0
@@ -129,7 +129,7 @@
 
     .theme-section-m
     {
-        @apply
+        @apply relative w-full
         py-[20px] px-[20px]
         md:p-[30px]
         xl:py-[40px] xl:px-0
@@ -138,7 +138,7 @@
 
     .theme-section-g
     {
-        @apply
+        @apply relative w-full
         py-[25px] px-[25px]
         md:p-[40px]
         xl:py-[50px] xl:px-0
@@ -148,21 +148,21 @@
     .theme-container-p
     {
         @apply
-        relative max-w-[800px]
+        relative w-full max-w-[800px]
         mx-auto
     }
 
     .theme-container-m
     {
         @apply
-        relative max-w-[950px]
+        relative w-full max-w-[950px]
         mx-auto
     }
 
     .theme-container-g
     {
         @apply
-        relative max-w-[1140px]
+        relative w-full max-w-[1140px]
         mx-auto
     }
 
